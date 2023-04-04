@@ -16,12 +16,13 @@ const Home = () => {
       {homeImages.map((homeImg) => {
         return (
           <motion.div
+          whileHover={{ scale: 1.001 }}
           variants={fadeIn('up', 'tween', 0.2, 1)}
           key={homeImg.id}
-          className={`${homeImg.bgColor} ${homeImg.layout} flex flex-col items-center justify-center relative rounded-md shadow-md hover:shadow-xl hover:ring-1 ring-[#df3b3b] cursor-pointer`}
+          className={`${homeImg.bgColor} ${homeImg.layout} flex flex-col items-center justify-center relative rounded-md shadow-md hover:shadow-lg cursor-pointer`}
           >
             <motion.img
-            // whileHover={{ y: -12, scale: 1.1}}
+            whileHover={{ y: -12, scale: 1.1}}
             variants={fadeIn('down', 'tween', 0.3, 1)}
             src={homeImg.img} alt={homeImg.name}
             className={`${homeImg.size}`}
