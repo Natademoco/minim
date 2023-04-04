@@ -7,4 +7,14 @@ import Reviews from "./container/Reviews";
 import Contact from "./container/Contact";
 import Footer from "./container/Footer";
 import ScrollToTop from "./container/ScrollToTop";
-export { Navbar, Home,PopularProducts,Shopping,BuyOnline,Reviews,Contact,Footer,ScrollToTop };
+export {
+  Navbar,
+  Home,
+  PopularProducts,
+  Shopping,
+  BuyOnline,
+  Reviews,
+  Contact,
+  Footer,
+  ScrollToTop,
+};

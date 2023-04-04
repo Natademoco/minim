@@ -32,21 +32,32 @@ export const homeImages = [
     id: 1,
     img: home1,
     name: "Floor And Table Lamps",
+    bgColor: 'bg-[#F1D3B3]',
+    layout: 'md:col-start-1 md:col-end-3 md:row-start-1 md:row-end-3',
+    size: 'w-[16rem] md:w-[20rem] lg:w-full'
   },
   {
     id: 2,
     img: home2,
     name: "Round Shape Couchs",
+    bgColor: 'bg-[#EDDBC7]',
+    layout: '',
+    size: 'md:w-[20rem] md:h-[20rem] object-cover'
   },
   {
     id: 3,
     img: home3,
     name: "Stylish Chairs",
+    bgColor: 'bg-[#C7BCA1]',
+    size: ''
   },
   {
     id: 4,
     img: home4,
     name: "Lightings",
+    bgColor: 'bg-[#D0B8A8]',
+    layout: 'md:row-start-2 md:row-end-3 md:col-start-3 md:col-end-5',
+    size: 'w-[18rem] h-[18rem] object-cover'
   },
 ];
 

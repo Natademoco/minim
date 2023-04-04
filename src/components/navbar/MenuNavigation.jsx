@@ -32,12 +32,12 @@ const MenuNavigation = ({menuToggle, setMenuToggle}) => {
       }}
       className={`${
         menuToggle
-          ? "fixed z-20 h-full top-0 left-0 w-[20rem] bg-white shadow-2xl rounded-tr-lg rounded-br-lg p-8 overflow-hidden xs:[23rem] transition-opacity"
+          ? "fixed z-20 h-full top-0 left-0 w-[20rem] bg-white shadow-2xl rounded-tr-lg rounded-br-lg p-8 overflow-hidden xs:[23rem]"
           : null
       }`}
       style={{display: menuToggle ? null : "none"}}>
       <div className="menu flex items-center justify-between sm:mt-4">
-        <div className="minim text-xl font-semibold">minim</div>
+        <div className="minim text-xl font-semibold cursor-pointer">minim</div>
         <div
           onClick={() => setMenuToggle(false)}
           className="menuX w-8 h-8 flex items-center justify-center bg-black text-white rounded-full cursor-pointer">
