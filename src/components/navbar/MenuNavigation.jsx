@@ -23,8 +23,8 @@ const MenuNavigation = ({menuToggle, setMenuToggle}) => {
 
   return (
     <motion.div
-      initial={menuToggle ? {x: -100, opacity: 0} : {x: -10, opacity: 0}}
-      animate={menuToggle ? {x: -10, opacity: 1} : {x: -100}}
+      initial={menuToggle ? {x: -100} : {x: -10}}
+      animate={menuToggle ? {x: -10} : {x: -100}}
       transition={{
         type: "spring",
         stiffness: 250,
@@ -36,7 +36,7 @@ const MenuNavigation = ({menuToggle, setMenuToggle}) => {
           : null
       }`}
       style={{display: menuToggle ? null : "none"}}>
-      <div className="menu flex items-center justify-between">
+      <div className="menu flex items-center justify-between sm:mt-4">
         <div className="minim text-xl font-semibold">minim</div>
         <div
           onClick={() => setMenuToggle(false)}
