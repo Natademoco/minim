@@ -66,49 +66,57 @@ export const products = [
     id: 1,
     img: product1,
     name: "Pica Ivory Boucle Ottoman",
-    price: 199,
+    price: "$199",
+    color: 'bg-[#d7ccc1]'
   },
   {
     id: 2,
     img: product2,
     name: "Maris White Marble Clock",
-    price: 59,
+    price: "$59",
+    color: 'bg-[#ededee]'
   },
   {
     id: 3,
     img: product3,
     name: "Poltrona Frau Ginger Side Chair",
-    price: 722,
+    price: "$722",
+    color: 'bg-[#eedfce]'
   },
   {
     id: 4,
     img: product4,
     name: "Kana Table Lamp",
-    price: 99,
+    price: "$99",
+    color: 'bg-[#f3eee5]'
   },
   {
     id: 5,
     img: product5,
     name: "Leap Black Table Lamp",
-    price: 79,
+    price: "$79",
+    color: 'bg-[#ded2c2]'
   },
   {
     id: 6,
     img: product6,
-    name: "Gabriola Ivory Boucle Lounge Chair",
-    price: 499,
+    name: "Gabriola Ivory Lounge Chair",
+    price: "$499",
+    color: 'bg-[#eee8e9]'
   },
   {
     id: 7,
     img: product7,
     name: "Bios 71 Inches Sideboard",
-    price: 999,
+    price: "$999",
+    color: 'bg-[#e3b481]'
   },
   {
     id: 8,
     img: product8,
     name: "Koepel Brass 18 Inches Table lamp",
-    price: 129,
+    price: "$129",
+    color: 'bg-[#dbdfd7]'
   },
 ];
 
