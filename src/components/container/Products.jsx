@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { style } from '../../styles'
 import { HiOutlineHeart, HiHeart } from 'react-icons/hi'
+import { motion } from 'framer-motion'
 
 const Products = ({ img, price, name, color }) => {
   const [isHeartClicked, setIsHeartClicked] = useState(false)
@@ -10,7 +11,9 @@ const Products = ({ img, price, name, color }) => {
   }
 
   return (
-    <div className={`${style.container} relative`}>
+    <motion.div
+    whileHover={{ y: -5 }}
+    className={`${style.container} relative hover:shadow-md`}>
       <img
         src={img}
         alt={name}
@@ -40,7 +43,7 @@ const Products = ({ img, price, name, color }) => {
           )}
         </div>
       </div>
-    </div>
+    </motion.div>
   )
 }
 
