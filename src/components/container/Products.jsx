@@ -17,7 +17,7 @@ const Products = ({ img, price, name, color, size}) => {
       <img
         src={img}
         alt={name}
-        className={`product sm:px-16 md:px-0 object-cover object-top w-[35rem] h-[15rem]`}
+        className={`product px-14 sm:px-16 md:px-0 object-cover object-center sm:object-top w-[35rem] h-[15rem]`}
       />
       <div className={`nameAndPrice p-6 shadow-lg`}>
         <div className='name mb-2'>
