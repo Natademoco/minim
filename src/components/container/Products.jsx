@@ -3,7 +3,7 @@ import { style } from '../../styles'
 import { HiOutlineHeart, HiHeart } from 'react-icons/hi'
 import { motion } from 'framer-motion'
 
-const Products = ({ img, price, name, color }) => {
+const Products = ({ img, price, name, color, size}) => {
   const [isHeartClicked, setIsHeartClicked] = useState(false)
 
   const handleHeartClicked = () => {
@@ -13,13 +13,13 @@ const Products = ({ img, price, name, color }) => {
   return (
     <motion.div
     whileHover={{ y: -5 }}
-    className={`${style.container} relative hover:shadow-md`}>
+    className={`${style.container} ${color} relative hover:shadow-md rounded-lg overflow-hidden`}>
       <img
         src={img}
         alt={name}
-        className={`${color} product py-[2rem] px-[1rem] object-cover w-[30rem] h-[15rem] rounded-tl-xl rounded-tr-xl`}
+        className={`product px-[5rem] sm:px-[1rem] object-cover object-top w-[35rem] h-[15rem]`}
       />
-      <div className={`${color} nameAndPrice p-6 shadow-lg rounded-bl-xl rounded-br-xl`}>
+      <div className={`nameAndPrice p-6 shadow-lg`}>
         <div className='name mb-2'>
           {name}
         </div>

@@ -81,7 +81,7 @@ export const products = [
     img: product3,
     name: "Poltrona Frau Ginger Side Chair",
     price: "$722",
-    color: 'bg-[#eedfce]'
+    color: 'bg-[#eedfce]',
   },
   {
     id: 4,

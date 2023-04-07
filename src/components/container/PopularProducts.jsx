@@ -29,7 +29,7 @@ const PopularProducts = () => {
       </div>
       <motion.div
       variants={fadeIn('up', 'tween', 0.8, 1)}
-      className='product_container grid place-items-center gap-8 mt-12 sm:grid-cols-2 md:grid-cols-3'>
+      className='product_container grid place-items-center gap-4 mt-12 sm:grid-cols-2 md:grid-cols-3'>
         {products.map(product => {
           return <Products key={product.id} {...product}/>
         })}
