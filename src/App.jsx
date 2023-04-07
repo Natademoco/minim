@@ -18,12 +18,12 @@ const App = () => {
       <Navbar />
       <Home />
       <PopularProducts />
-      {/* <Shopping />
-      <BuyOnline />
-      <Reviews />
-      <Contact />
-      <Footer />
-      <ScrollToTop /> */}
+      <Shopping />
+      {/* <BuyOnline /> */}
+      {/* <Reviews /> */}
+      {/* <Contact /> */}
+      {/* <Footer /> */}
+      {/* <ScrollToTop /> */}
     </div>
   )
 }

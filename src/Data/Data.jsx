@@ -128,6 +128,7 @@ export const shoppingImgs = [
     title: "Life could be a brezze",
     text: "Out of the tropics and into your space. Natural cane pieces are the key to perma-vacation vibes.",
     btnText: "Shop Cane",
+    color: 'bg-[#e3dfd3]'
   },
   {
     id: 2,
@@ -135,6 +136,7 @@ export const shoppingImgs = [
     title: "Smooth",
     text: "We have got a real soft spot for the velvet versions of these popular style.",
     btnText: "Shop Velvet",
+    color: 'bg-[#e3d5ca]'
   },
 ];
 
