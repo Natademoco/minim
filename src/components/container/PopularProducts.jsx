@@ -15,12 +15,12 @@ const PopularProducts = () => {
     className={`${style.container} ${style.section} h-full`}>
       <div className="popular_container flex items-center justify-between">
         <motion.div
-        variants={slideIn('left', 'tween', 0.5, 1)}
+        variants={slideIn('left', 'tween', 0.5, 0.5)}
         className={`${style.title}`}>
           Popular <span className={`${style.span}`}>products</span>
         </motion.div>
         <motion.div
-        variants={slideIn('right', 'tween', 0.5, 1)}
+        variants={slideIn('right', 'tween', 0.5, 0.5)}
         className='nextAndPrev flex items-center gap-8 cursor-pointer'>
           <span className='uppercase font-medium text-sm sm:text-md'>prev</span>
           <span className='uppercase font-medium text-sm sm:text-md'>|</span>
@@ -28,7 +28,7 @@ const PopularProducts = () => {
         </motion.div>
       </div>
       <motion.div
-      variants={fadeIn('up', 'tween', 0.8, 1)}
+      variants={fadeIn('up', 'tween', 0.8, 0.5)}
       className='product_container grid place-items-center gap-4 mt-12 sm:grid-cols-2 md:grid-cols-3'>
         {products.map(product => {
           return <Products key={product.id} {...product}/>
