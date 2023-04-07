@@ -3,6 +3,7 @@ import { homeImages } from '../../Data/Data'
 import { motion } from 'framer-motion'
 import { staggerContainer, fadeIn} from '../../../utils/motion'
 import { TypingText } from '../CustomText'
+import { style } from '../../styles'
 
 const Home = () => {
   return (
@@ -11,7 +12,7 @@ const Home = () => {
     initial="hidden"
     whileInView="show"
     id='home'
-    className='container grid gap-4 sm:gap-4 sm:grid-cols-2 md:grid-cols-4 mx-auto max-w-[1060px] py-24 sm:py-32 px-5 sm:px-8'  
+    className={`${style.section} ${style.container} grid gap-4 sm:gap-4 sm:grid-cols-2 md:grid-cols-4 mt-[3.5rem] sm:mt-[5rem]`}  
     >
       {homeImages.map((homeImg) => {
         return (

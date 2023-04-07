@@ -17,8 +17,8 @@ const App = () => {
     <div className='overflow-hidden'>
       <Navbar />
       <Home />
-      {/* <PopularProducts />
-      <Shopping />
+      <PopularProducts />
+      {/* <Shopping />
       <BuyOnline />
       <Reviews />
       <Contact />

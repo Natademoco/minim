@@ -4,6 +4,7 @@ import {HiMenuAlt4, HiOutlineShoppingBag} from "react-icons/hi";
 import MenuNavigation from "./MenuNavigation";
 import {motion} from "framer-motion";
 import {navVariants, staggerContainer} from "../../../utils/motion";
+import { style } from "../../styles";
 
 const Navbar = () => {
   const [menuToggle, setMenuToggle] = useState(false);
@@ -15,7 +16,7 @@ const Navbar = () => {
           variants={navVariants}
           initial="hidden"
           whileInView="show"
-          className="container p-6 flex items-center justify-between mx-auto sm:p-12 max-w-[1060px]">
+          className={`${style.container} p-6 flex items-center justify-between sm:p-12`}>
           <div className="menuSearch flex items-center">
             <div
               className="menu_icon w-8 h-8 bg-black rounded-[50%] text-white flex items-center justify-center cursor-pointer mr-6 sm:mr-20"

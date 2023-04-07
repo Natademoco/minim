@@ -92,11 +92,11 @@ const MenuNavigation = ({menuToggle, setMenuToggle}) => {
       >
         {isContactButtonClick ? 'phone number copied' : 'contact us'}
       </div>
-      <div className="openHours font-light uppercase text-sm flex flex-col justify-center text-center pt-8 items-center text-gray-400">
-        <p>operating hours</p>
-        <p className="flex items-center">
+      <div className="flex flex-col justify-center text-center items-center text-gray-400 pt-10">
+        <h4 className="openHours font-light uppercase text-sm">operating hours</h4>
+        <h4 className="openHours font-light uppercase text-sm flex items-center">
         9:00am <span><BsArrowRightShort/></span> 7:30pm
-        </p>
+        </h4>
       </div>
     </motion.div>
   );
